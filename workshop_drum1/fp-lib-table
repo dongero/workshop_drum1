@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name 4ms-footprints)(type KiCad)(uri /Users/user/Desktop/ZCircuits/_libraries/4ms-kicad-lib/4ms-footprints.pretty)(options "")(descr ""))
+  (lib (name Zfms)(type KiCad)(uri /Users/user/Desktop/ZCircuits/_libraries/4ms-kicad-lib/4ms-footprints.pretty)(options "")(descr ""))
   (lib (name zfoot)(type KiCad)(uri /Users/user/Desktop/ZCircuits/_libraries/zlibrary/zfoot.pretty)(options "")(descr ""))
 )
