@@ -52,24 +52,24 @@ Comment4 ""
 $EndDescr
 $Comp
 L LM358 U1
-U 1 1 5A324A57
+U 2 1 5A324A57
 P 2450 1650
 F 0 "U1" H 2400 1900 50  0000 L CNN
 F 1 "LM358" H 2500 1800 50  0000 L CNN
 F 2 "4ms-footprints:DIP_8pin_TL082_TH" H 2450 1650 50  0001 C CNN
 F 3 "" H 2450 1650 50  0001 C CNN
-	1    2450 1650
+	2    2450 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L LM358 U1
-U 2 1 5A324B18
+U 1 1 5A324B18
 P 4200 1650
 F 0 "U1" H 4541 1696 50  0000 L CNN
 F 1 "LM358" H 4541 1605 50  0000 L CNN
 F 2 "4ms-footprints:DIP_8pin_TL082_TH" H 4200 1650 50  0001 C CNN
 F 3 "" H 4200 1650 50  0001 C CNN
-	2    4200 1650
+	1    4200 1650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -139,10 +139,10 @@ F 3 "" H 6450 1550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BreadBoardStrip BB5
+L BreadBoardStrip IN1
 U 1 1 5A32DFC0
 P 3300 900
-F 0 "BB5" H 3359 779 60  0000 C CNN
+F 0 "IN1" H 3359 779 60  0000 C CNN
 F 1 "BreadBoardStrip" H 3359 845 10  0000 C CNN
 F 2 "zfoot:BreadBoardStrip" H 3170 880 60  0001 C CNN
 F 3 "" H 3300 900 60  0001 C CNN
@@ -150,10 +150,10 @@ F 3 "" H 3300 900 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BreadBoardStrip BB7
+L BreadBoardStrip OUT1
 U 1 1 5A32E0DC
 P 3750 900
-F 0 "BB7" H 3909 937 60  0000 L CNN
+F 0 "OUT1" H 3909 937 60  0000 L CNN
 F 1 "BreadBoardStrip" H 3909 871 10  0000 L CNN
 F 2 "zfoot:BreadBoardStrip" H 3620 880 60  0001 C CNN
 F 3 "" H 3750 900 60  0001 C CNN
@@ -161,10 +161,10 @@ F 3 "" H 3750 900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BreadBoardStrip BB8
+L BreadBoardStrip OUT3
 U 1 1 5A32E1BF
 P 5750 900
-F 0 "BB8" H 5909 937 60  0000 L CNN
+F 0 "OUT3" H 5909 937 60  0000 L CNN
 F 1 "BreadBoardStrip" H 5909 871 10  0000 L CNN
 F 2 "zfoot:BreadBoardStrip" H 5620 880 60  0001 C CNN
 F 3 "" H 5750 900 60  0001 C CNN
@@ -172,10 +172,10 @@ F 3 "" H 5750 900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BreadBoardStrip BB11
+L BreadBoardStrip OUT2
 U 1 1 5A32E1FA
 P 4750 900
-F 0 "BB11" H 4909 937 60  0000 L CNN
+F 0 "OUT2" H 4909 937 60  0000 L CNN
 F 1 "BreadBoardStrip" H 4909 871 10  0000 L CNN
 F 2 "zfoot:BreadBoardStrip" H 4620 880 60  0001 C CNN
 F 3 "" H 4750 900 60  0001 C CNN
@@ -183,21 +183,10 @@ F 3 "" H 4750 900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BreadBoardStrip BB12
-U 1 1 5A32E2E4
-P 6750 900
-F 0 "BB12" H 6909 937 60  0000 L CNN
-F 1 "BreadBoardStrip" H 6909 871 10  0000 L CNN
-F 2 "zfoot:BreadBoardStrip" H 6620 880 60  0001 C CNN
-F 3 "" H 6750 900 60  0001 C CNN
-	1    6750 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L BreadBoardStrip BB9
+L BreadBoardStrip IN2
 U 1 1 5A32E61E
 P 4300 900
-F 0 "BB9" H 4359 779 60  0000 C CNN
+F 0 "IN2" H 4359 779 60  0000 C CNN
 F 1 "BreadBoardStrip" H 4359 845 10  0000 C CNN
 F 2 "zfoot:BreadBoardStrip" H 4170 880 60  0001 C CNN
 F 3 "" H 4300 900 60  0001 C CNN
@@ -205,21 +194,10 @@ F 3 "" H 4300 900 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BreadBoardStrip BB10
-U 1 1 5A32E668
-P 6300 900
-F 0 "BB10" H 6359 779 60  0000 C CNN
-F 1 "BreadBoardStrip" H 6359 845 10  0000 C CNN
-F 2 "zfoot:BreadBoardStrip" H 6170 880 60  0001 C CNN
-F 3 "" H 6300 900 60  0001 C CNN
-	1    6300 900 
-	-1   0    0    1   
-$EndComp
-$Comp
-L BreadBoardStrip BB6
+L BreadBoardStrip IN3
 U 1 1 5A32E6B1
 P 5300 900
-F 0 "BB6" H 5359 779 60  0000 C CNN
+F 0 "IN3" H 5359 779 60  0000 C CNN
 F 1 "BreadBoardStrip" H 5359 845 10  0000 C CNN
 F 2 "zfoot:BreadBoardStrip" H 5170 880 60  0001 C CNN
 F 3 "" H 5300 900 60  0001 C CNN
@@ -246,17 +224,6 @@ F 1 "7414" H 4950 1950 25  0000 C CNN
 F 2 "4ms-footprints:DIP-14_W7.62mm" H 4900 2600 60  0001 C CNN
 F 3 "" H 4900 2600 60  0001 C CNN
 	7    4950 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDStrip PWR1
-U 1 1 5A330F13
-P 5000 1650
-F 0 "PWR1" H 5159 1687 15  0000 L CNN
-F 1 "PWRStrip" H 5159 1656 10  0000 L CNN
-F 2 "zfoot:GNDStrip" H 4870 1630 60  0001 C CNN
-F 3 "" H 5000 1650 60  0001 C CNN
-	1    5000 1650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -320,7 +287,7 @@ U 1 1 5A333512
 P 2250 3700
 F 0 "ON/OFF_LED1" H 2300 3496 45  0000 C CNN
 F 1 "LED-C1-A2" H 2300 3580 45  0000 C CNN
-F 2 "LED-C1-A2-3MM-VERT" H 2280 3850 20  0001 C CNN
+F 2 "zfoot:LED_wired" H 2280 3850 20  0001 C CNN
 F 3 "" H 2250 3700 60  0001 C CNN
 	1    2250 3700
 	-1   0    0    1   
@@ -885,7 +852,7 @@ U 1 1 5A332943
 P 6600 2800
 F 0 "Trig_LED1" H 6650 2596 45  0000 C CNN
 F 1 "LED-C1-A2" H 6650 2680 45  0000 C CNN
-F 2 "LED-C1-A2-3MM-VERT" H 6630 2950 20  0001 C CNN
+F 2 "zfoot:LED_wired" H 6630 2950 20  0001 C CNN
 F 3 "" H 6600 2800 60  0001 C CNN
 	1    6600 2800
 	-1   0    0    1   
@@ -921,14 +888,27 @@ design by ZD
 Wire Wire Line
 	7200 2800 7250 2800
 $Comp
-L BreadBoardStrip BB1
+L BreadBoardStrip OscSwitchStrip1
 U 1 1 5A33DD61
 P 5550 1850
-F 0 "BB1" H 5609 1729 60  0000 C CNN
+F 0 "OscSwitchStrip1" H 5609 1729 60  0000 C CNN
 F 1 "BreadBoardStrip" H 5609 1795 10  0000 C CNN
 F 2 "zfoot:BreadBoardStrip" H 5420 1830 60  0001 C CNN
 F 3 "" H 5550 1850 60  0001 C CNN
 	1    5550 1850
 	-1   0    0    1   
 $EndComp
+$Comp
+L GNDStrip PWR1
+U 1 1 5A330F13
+P 5000 1650
+F 0 "PWR1" H 5159 1687 15  0000 L CNN
+F 1 "PWRStrip" H 5159 1656 10  0000 L CNN
+F 2 "zfoot:GNDStrip" H 4870 1630 60  0001 C CNN
+F 3 "" H 5000 1650 60  0001 C CNN
+	1    5000 1650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6300 900 
+NoConn ~ 6750 900 
 $EndSCHEMATC
