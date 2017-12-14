@@ -1,4 +1,4 @@
-update=12/14/2017 12:42:39 AM
+update=Thursday, December 14, 2017 'AMt' 11:02:19 AM
 version=1
 last_client=kicad
 [general]
@@ -29,7 +29,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=C:/Users/c4am95/Desktop/ZCircuits/_libraries/zlibrary/zsch;C:/Users/c4am95/Desktop/ZCircuits/_libraries/4ms-kicad-lib/lib-sch
+LibDir=/Users/user/Desktop/ZCircuits/_libraries/zlibrary/zsch;/Users/user/Desktop/ZCircuits/_libraries/4ms-kicad-lib/lib-sch
 [eeschema/libraries]
 LibName1=4ms-headers
 LibName2=4ms-ic
