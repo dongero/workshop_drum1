@@ -406,7 +406,7 @@ $Comp
 L SPDT_small Osc_Select1
 U 1 1 5A3358B6
 P 5700 1900
-F 0 "Osc_Select1" H 5800 1700 60  0000 C CNN
+F 0 "Osc_Select1" H 5600 1750 60  0000 C CNN
 F 1 "SPDT_small" H 5700 2060 20  0000 C CNN
 F 2 "zfoot:SPDT_Wired" H 5700 1900 60  0001 C CNN
 F 3 "" H 5700 1900 60  0001 C CNN
@@ -891,7 +891,7 @@ $Comp
 L BreadBoardStrip PathToSwitch1
 U 1 1 5A33DD61
 P 5550 1850
-F 0 "PathToSwitch1" H 5609 1729 60  0000 C CNN
+F 0 "PathToSwitch1" H 5600 2000 60  0000 C CNN
 F 1 "BreadBoardStrip" H 5609 1795 10  0000 C CNN
 F 2 "zfoot:BreadBoardStrip_4" H 5420 1830 60  0001 C CNN
 F 3 "" H 5550 1850 60  0001 C CNN
@@ -899,10 +899,10 @@ F 3 "" H 5550 1850 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDStrip PWR1
+L GNDStrip EnvelopeAndVoltageStarve1
 U 1 1 5A330F13
 P 5000 1650
-F 0 "PWR1" H 5159 1687 15  0000 L CNN
+F 0 "EnvelopeAndVoltageStarve1" H 5159 1687 15  0000 L CNN
 F 1 "PWRStrip" H 5159 1656 10  0000 L CNN
 F 2 "zfoot:BreadBoardStrip_4" H 4870 1630 60  0001 C CNN
 F 3 "" H 5000 1650 60  0001 C CNN

@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.4
+EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
 # +5V
@@ -204,8 +204,8 @@ X ~ 10 250 0 60 L 50 50 5 1 P
 X ~ 11 -200 0 50 R 50 50 5 1 P
 X ~ 12 250 0 60 L 50 50 6 1 P
 X ~ 13 -200 0 50 R 50 50 6 1 P
-X ~ 14 0 250 150 D 50 50 7 1 P
 X ~ 7 0 -250 150 U 50 50 7 1 P
+X ~ 14 0 250 150 D 50 50 7 1 P
 ENDDRAW
 ENDDEF
 #

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 3
+EESchema Schematic File Version 2
 LIBS:4ms-headers
 LIBS:4ms-ic
 LIBS:4ms-mech
@@ -144,7 +144,7 @@ U 1 1 5A32DFC0
 P 3300 900
 F 0 "IN1" H 3359 779 60  0000 C CNN
 F 1 "BreadBoardStrip" H 3359 845 10  0000 C CNN
-F 2 "zfoot:BreadBoardStrip" H 3170 880 60  0001 C CNN
+F 2 "zfoot:BreadBoardStrip_4" H 3170 880 60  0001 C CNN
 F 3 "" H 3300 900 60  0001 C CNN
 	1    3300 900 
 	-1   0    0    1   
@@ -155,7 +155,7 @@ U 1 1 5A32E0DC
 P 3750 900
 F 0 "OUT1" H 3909 937 60  0000 L CNN
 F 1 "BreadBoardStrip" H 3909 871 10  0000 L CNN
-F 2 "zfoot:BreadBoardStrip" H 3620 880 60  0001 C CNN
+F 2 "zfoot:BreadBoardStrip_4" H 3620 880 60  0001 C CNN
 F 3 "" H 3750 900 60  0001 C CNN
 	1    3750 900 
 	1    0    0    -1  
@@ -166,7 +166,7 @@ U 1 1 5A32E1BF
 P 5750 900
 F 0 "OUT3" H 5909 937 60  0000 L CNN
 F 1 "BreadBoardStrip" H 5909 871 10  0000 L CNN
-F 2 "zfoot:BreadBoardStrip" H 5620 880 60  0001 C CNN
+F 2 "zfoot:BreadBoardStrip_4" H 5620 880 60  0001 C CNN
 F 3 "" H 5750 900 60  0001 C CNN
 	1    5750 900 
 	1    0    0    -1  
@@ -177,7 +177,7 @@ U 1 1 5A32E1FA
 P 4750 900
 F 0 "OUT2" H 4909 937 60  0000 L CNN
 F 1 "BreadBoardStrip" H 4909 871 10  0000 L CNN
-F 2 "zfoot:BreadBoardStrip" H 4620 880 60  0001 C CNN
+F 2 "zfoot:BreadBoardStrip_4" H 4620 880 60  0001 C CNN
 F 3 "" H 4750 900 60  0001 C CNN
 	1    4750 900 
 	1    0    0    -1  
@@ -188,7 +188,7 @@ U 1 1 5A32E61E
 P 4300 900
 F 0 "IN2" H 4359 779 60  0000 C CNN
 F 1 "BreadBoardStrip" H 4359 845 10  0000 C CNN
-F 2 "zfoot:BreadBoardStrip" H 4170 880 60  0001 C CNN
+F 2 "zfoot:BreadBoardStrip_4" H 4170 880 60  0001 C CNN
 F 3 "" H 4300 900 60  0001 C CNN
 	1    4300 900 
 	-1   0    0    1   
@@ -199,7 +199,7 @@ U 1 1 5A32E6B1
 P 5300 900
 F 0 "IN3" H 5359 779 60  0000 C CNN
 F 1 "BreadBoardStrip" H 5359 845 10  0000 C CNN
-F 2 "zfoot:BreadBoardStrip" H 5170 880 60  0001 C CNN
+F 2 "zfoot:BreadBoardStrip_4" H 5170 880 60  0001 C CNN
 F 3 "" H 5300 900 60  0001 C CNN
 	1    5300 900 
 	-1   0    0    1   
@@ -210,7 +210,7 @@ U 1 1 5A32F5DA
 P 5000 2250
 F 0 "GND1" H 5159 2287 15  0000 L CNN
 F 1 "GNDStrip" H 5159 2256 10  0000 L CNN
-F 2 "zfoot:GNDStrip" H 4870 2230 60  0001 C CNN
+F 2 "zfoot:BreadBoardStripBold_4" H 4870 2230 60  0001 C CNN
 F 3 "" H 5000 2250 60  0001 C CNN
 	1    5000 2250
 	1    0    0    -1  
@@ -406,7 +406,7 @@ $Comp
 L SPDT_small Osc_Select1
 U 1 1 5A3358B6
 P 5700 1900
-F 0 "Osc_Select1" H 5800 1700 60  0000 C CNN
+F 0 "Osc_Select1" H 5600 1750 60  0000 C CNN
 F 1 "SPDT_small" H 5700 2060 20  0000 C CNN
 F 2 "zfoot:SPDT_Wired" H 5700 1900 60  0001 C CNN
 F 3 "" H 5700 1900 60  0001 C CNN
@@ -888,23 +888,23 @@ design by ZD
 Wire Wire Line
 	7200 2800 7250 2800
 $Comp
-L BreadBoardStrip OscSwitchStrip1
+L BreadBoardStrip PathToSwitch1
 U 1 1 5A33DD61
 P 5550 1850
-F 0 "OscSwitchStrip1" H 5609 1729 60  0000 C CNN
+F 0 "PathToSwitch1" H 5600 2000 60  0000 C CNN
 F 1 "BreadBoardStrip" H 5609 1795 10  0000 C CNN
-F 2 "zfoot:BreadBoardStrip" H 5420 1830 60  0001 C CNN
+F 2 "zfoot:BreadBoardStrip_4" H 5420 1830 60  0001 C CNN
 F 3 "" H 5550 1850 60  0001 C CNN
 	1    5550 1850
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDStrip PWR1
+L GNDStrip EnvelopeAndVoltageStarve
 U 1 1 5A330F13
 P 5000 1650
-F 0 "PWR1" H 5159 1687 15  0000 L CNN
+F 0 "EnvelopeAndVoltageStarve" H 5159 1687 15  0000 L CNN
 F 1 "PWRStrip" H 5159 1656 10  0000 L CNN
-F 2 "zfoot:GNDStrip" H 4870 1630 60  0001 C CNN
+F 2 "zfoot:BreadBoardStrip_4" H 4870 1630 60  0001 C CNN
 F 3 "" H 5000 1650 60  0001 C CNN
 	1    5000 1650
 	1    0    0    -1  
@@ -917,7 +917,7 @@ U 1 1 5A336833
 P 5000 2250
 F 0 "GND2" H 5159 2287 15  0000 L CNN
 F 1 "GNDStrip" H 5159 2256 10  0000 L CNN
-F 2 "zfoot:GNDStripLONG" H 4870 2230 60  0001 C CNN
+F 2 "zfoot:BreadBoardStripBold_7" H 4870 2230 60  0001 C CNN
 F 3 "" H 5000 2250 60  0001 C CNN
 	1    5000 2250
 	0    1    1    0   
