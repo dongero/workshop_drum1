@@ -42,7 +42,7 @@ U 5 1 5A324BD2
 P 4950 1950
 F 0 "U2" H 5100 1850 60  0000 C CNN
 F 1 "7414" H 4950 1950 25  0000 C CNN
-F 2 "4ms-footprints:DIP-14_W7.62mm" H 4900 2600 60  0001 C CNN
+F 2 "zfoot:BREAKOUT" H 4900 2600 60  0001 C CNN
 F 3 "" H 4900 2600 60  0001 C CNN
 	5    4950 1950
 	1    0    0    -1  
@@ -53,7 +53,7 @@ U 4 1 5A324E3E
 P 6100 2800
 F 0 "U2" H 6125 3133 60  0000 C CNN
 F 1 "7414" H 6125 3054 25  0000 C CNN
-F 2 "4ms-footprints:DIP-14_W7.62mm" H 6050 3450 60  0001 C CNN
+F 2 "zfoot:BREAKOUT" H 6050 3450 60  0001 C CNN
 F 3 "" H 6050 3450 60  0001 C CNN
 	4    6100 2800
 	1    0    0    -1  
@@ -64,7 +64,7 @@ U 1 1 5A3250CC
 P 3500 900
 F 0 "U2" H 3525 1233 60  0000 C CNN
 F 1 "7414" H 3525 1154 25  0000 C CNN
-F 2 "4ms-footprints:DIP-14_W7.62mm" H 3450 1550 60  0001 C CNN
+F 2 "zfoot:BREAKOUT" H 3450 1550 60  0001 C CNN
 F 3 "" H 3450 1550 60  0001 C CNN
 	1    3500 900 
 	1    0    0    -1  
@@ -75,7 +75,7 @@ U 3 1 5A3251AB
 P 5500 900
 F 0 "U2" H 5525 1233 60  0000 C CNN
 F 1 "7414" H 5525 1154 25  0000 C CNN
-F 2 "4ms-footprints:DIP-14_W7.62mm" H 5450 1550 60  0001 C CNN
+F 2 "zfoot:BREAKOUT" H 5450 1550 60  0001 C CNN
 F 3 "" H 5450 1550 60  0001 C CNN
 	3    5500 900 
 	1    0    0    -1  
@@ -86,7 +86,7 @@ U 2 1 5A325203
 P 4500 900
 F 0 "U2" H 4525 1233 60  0000 C CNN
 F 1 "7414" H 4525 1154 25  0000 C CNN
-F 2 "4ms-footprints:DIP-14_W7.62mm" H 4450 1550 60  0001 C CNN
+F 2 "zfoot:BREAKOUT" H 4450 1550 60  0001 C CNN
 F 3 "" H 4450 1550 60  0001 C CNN
 	2    4500 900 
 	1    0    0    -1  
@@ -97,86 +97,9 @@ U 6 1 5A325300
 P 6500 900
 F 0 "U2" H 6525 1233 60  0000 C CNN
 F 1 "7414" H 6525 1154 25  0000 C CNN
-F 2 "4ms-footprints:DIP-14_W7.62mm" H 6450 1550 60  0001 C CNN
+F 2 "zfoot:BREAKOUT" H 6450 1550 60  0001 C CNN
 F 3 "" H 6450 1550 60  0001 C CNN
 	6    6500 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L zMECH:BreadBoardStrip IN1
-U 1 1 5A32DFC0
-P 3300 900
-F 0 "IN1" H 3359 779 60  0000 C CNN
-F 1 "BreadBoardStrip" H 3359 845 10  0000 C CNN
-F 2 "zfoot:BreadBoardStrip_4" H 3170 880 60  0001 C CNN
-F 3 "" H 3300 900 60  0001 C CNN
-	1    3300 900 
-	-1   0    0    1   
-$EndComp
-$Comp
-L zMECH:BreadBoardStrip OUT1
-U 1 1 5A32E0DC
-P 3750 900
-F 0 "OUT1" H 3909 937 60  0000 L CNN
-F 1 "BreadBoardStrip" H 3909 871 10  0000 L CNN
-F 2 "zfoot:BreadBoardStrip_4" H 3620 880 60  0001 C CNN
-F 3 "" H 3750 900 60  0001 C CNN
-	1    3750 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L zMECH:BreadBoardStrip OUT3
-U 1 1 5A32E1BF
-P 5750 900
-F 0 "OUT3" H 5909 937 60  0000 L CNN
-F 1 "BreadBoardStrip" H 5909 871 10  0000 L CNN
-F 2 "zfoot:BreadBoardStrip_4" H 5620 880 60  0001 C CNN
-F 3 "" H 5750 900 60  0001 C CNN
-	1    5750 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L zMECH:BreadBoardStrip OUT2
-U 1 1 5A32E1FA
-P 4750 900
-F 0 "OUT2" H 4909 937 60  0000 L CNN
-F 1 "BreadBoardStrip" H 4909 871 10  0000 L CNN
-F 2 "zfoot:BreadBoardStrip_4" H 4620 880 60  0001 C CNN
-F 3 "" H 4750 900 60  0001 C CNN
-	1    4750 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L zMECH:BreadBoardStrip IN2
-U 1 1 5A32E61E
-P 4300 900
-F 0 "IN2" H 4359 779 60  0000 C CNN
-F 1 "BreadBoardStrip" H 4359 845 10  0000 C CNN
-F 2 "zfoot:BreadBoardStrip_4" H 4170 880 60  0001 C CNN
-F 3 "" H 4300 900 60  0001 C CNN
-	1    4300 900 
-	-1   0    0    1   
-$EndComp
-$Comp
-L zMECH:BreadBoardStrip IN3
-U 1 1 5A32E6B1
-P 5300 900
-F 0 "IN3" H 5359 779 60  0000 C CNN
-F 1 "BreadBoardStrip" H 5359 845 10  0000 C CNN
-F 2 "zfoot:BreadBoardStrip_4" H 5170 880 60  0001 C CNN
-F 3 "" H 5300 900 60  0001 C CNN
-	1    5300 900 
-	-1   0    0    1   
-$EndComp
-$Comp
-L zMECH:GNDStrip GND1
-U 1 1 5A32F5DA
-P 5000 2250
-F 0 "GND1" H 5159 2287 15  0000 L CNN
-F 1 "GNDStrip" H 5159 2256 10  0000 L CNN
-F 2 "zfoot:BreadBoardStripBold_4" H 4870 2230 60  0001 C CNN
-F 3 "" H 5000 2250 60  0001 C CNN
-	1    5000 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -185,7 +108,7 @@ U 7 1 5A3302AD
 P 4950 1950
 F 0 "U2" H 4975 2283 60  0000 C CNN
 F 1 "7414" H 4950 1950 25  0000 C CNN
-F 2 "4ms-footprints:DIP-14_W7.62mm" H 4900 2600 60  0001 C CNN
+F 2 "zfoot:BREAKOUT" H 4900 2600 60  0001 C CNN
 F 3 "" H 4900 2600 60  0001 C CNN
 	7    4950 1950
 	1    0    0    -1  
@@ -631,14 +554,6 @@ F 3 "" H 4650 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4950 1700 4950 1650
-Wire Wire Line
-	4500 1650 4950 1650
-Wire Wire Line
-	4950 2200 4950 2250
-Wire Wire Line
-	4950 2250 5000 2250
-Wire Wire Line
 	1600 3550 1600 3600
 Wire Wire Line
 	1600 3250 1650 3250
@@ -704,7 +619,6 @@ Wire Wire Line
 	3900 2100 4500 2100
 Wire Wire Line
 	4500 2100 4500 1650
-Connection ~ 4950 1650
 Wire Wire Line
 	4650 1950 4650 2500
 Wire Wire Line
@@ -824,35 +738,13 @@ U 1 1 5A33DD61
 P 5550 1850
 F 0 "PathToSwitch1" H 5600 2000 60  0000 C CNN
 F 1 "BreadBoardStrip" H 5609 1795 10  0000 C CNN
-F 2 "zfoot:BreadBoardStrip_4" H 5420 1830 60  0001 C CNN
+F 2 "zfoot:BREAKOUTswitch" H 5420 1830 60  0001 C CNN
 F 3 "" H 5550 1850 60  0001 C CNN
 	1    5550 1850
 	-1   0    0    1   
 $EndComp
-$Comp
-L zMECH:GNDStrip EnvelopeAndVoltageStarve1
-U 1 1 5A330F13
-P 5000 1650
-F 0 "EnvelopeAndVoltageStarve1" H 5159 1687 15  0000 L CNN
-F 1 "PWRStrip" H 5159 1656 10  0000 L CNN
-F 2 "zfoot:BreadBoardStrip_4" H 4870 1630 60  0001 C CNN
-F 3 "" H 5000 1650 60  0001 C CNN
-	1    5000 1650
-	1    0    0    -1  
-$EndComp
 NoConn ~ 6300 900 
 NoConn ~ 6750 900 
-$Comp
-L zMECH:GNDStrip GND2
-U 1 1 5A336833
-P 5000 2250
-F 0 "GND2" H 5159 2287 15  0000 L CNN
-F 1 "GNDStrip" H 5159 2256 10  0000 L CNN
-F 2 "zfoot:BreadBoardStripBold_7" H 4870 2230 60  0001 C CNN
-F 3 "" H 5000 2250 60  0001 C CNN
-	1    5000 2250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2000 3200 2050 3200
 Wire Wire Line
@@ -870,25 +762,20 @@ Wire Wire Line
 Wire Wire Line
 	3600 1650 3600 1700
 Wire Wire Line
-	4950 1650 5000 1650
-Wire Wire Line
 	4650 2500 4650 2550
 Wire Wire Line
 	5150 2500 5200 2500
 $Comp
 L 4ms-power:GND #PWR0101
 U 1 1 5ABB579D
-P 4900 2250
-F 0 "#PWR0101" H 4900 2000 50  0001 C CNN
-F 1 "GND" H 4905 2077 50  0000 C CNN
-F 2 "" H 4900 2250 50  0001 C CNN
-F 3 "" H 4900 2250 50  0001 C CNN
-	1    4900 2250
+P 4950 2200
+F 0 "#PWR0101" H 4950 1950 50  0001 C CNN
+F 1 "GND" H 4955 2027 50  0000 C CNN
+F 2 "" H 4950 2200 50  0001 C CNN
+F 3 "" H 4950 2200 50  0001 C CNN
+	1    4950 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4900 2250 4950 2250
-Connection ~ 4950 2250
 Wire Wire Line
 	1000 1150 750  1150
 Wire Wire Line
@@ -931,4 +818,15 @@ Wire Wire Line
 	5500 1950 5550 1950
 Wire Wire Line
 	5500 2450 5500 2500
+Wire Wire Line
+	4500 1650 4950 1650
+Wire Wire Line
+	4950 1650 4950 1700
+Connection ~ 4500 1650
+NoConn ~ 3300 900 
+NoConn ~ 3750 900 
+NoConn ~ 4300 900 
+NoConn ~ 4750 900 
+NoConn ~ 5300 900 
+NoConn ~ 5750 900 
 $EndSCHEMATC
