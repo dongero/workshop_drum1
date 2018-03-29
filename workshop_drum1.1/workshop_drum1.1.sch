@@ -16,24 +16,24 @@ Comment4 ""
 $EndDescr
 $Comp
 L linear1:LM358 U1
-U 1 1 5A324A57
+U 2 1 5A324A57
 P 2450 1650
 F 0 "U1" H 2400 1900 50  0000 L CNN
 F 1 "LM358" H 2500 1800 50  0000 L CNN
-F 2 "4ms-footprints:DIP_8pin_TL082_TH" H 2450 1650 50  0001 C CNN
+F 2 "zfoot:DIP_8pin_TL082_TH_CenteredNotOnPin1" H 2450 1650 50  0001 C CNN
 F 3 "" H 2450 1650 50  0001 C CNN
-	1    2450 1650
+	2    2450 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L linear1:LM358 U1
-U 2 1 5A324B18
+U 1 1 5A324B18
 P 4200 1650
 F 0 "U1" H 4541 1696 50  0000 L CNN
 F 1 "LM358" H 4541 1605 50  0000 L CNN
-F 2 "4ms-footprints:DIP_8pin_TL082_TH" H 4200 1650 50  0001 C CNN
+F 2 "zfoot:DIP_8pin_TL082_TH_CenteredNotOnPin1" H 4200 1650 50  0001 C CNN
 F 3 "" H 4200 1650 50  0001 C CNN
-	2    4200 1650
+	1    4200 1650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -119,7 +119,7 @@ U 1 1 5A331B93
 P 1100 3400
 F 0 "J1" H 1131 3837 60  0000 C CNN
 F 1 "9v_Battery_Clip" H 1131 3731 60  0000 C CNN
-F 2 "zfoot:Jack_DC" H 1100 3400 60  0001 C CNN
+F 2 "zfoot:Jack_Instrument_Bigger" H 1100 3400 60  0001 C CNN
 F 3 "" H 1100 3400 60  0001 C CNN
 	1    1100 3400
 	1    0    0    -1  
@@ -184,7 +184,7 @@ L 4ms-passives:CAP-ELEC-TH C1
 U 1 1 5A33391E
 P 2650 3350
 F 0 "C1" H 2778 3342 45  0000 L CNN
-F 1 "100uF" H 2778 3258 45  0000 L CNN
+F 1 "10uF" H 2778 3258 45  0000 L CNN
 F 2 "4ms-footprints:Cap_Electrolytic_TH" H 2680 3500 20  0001 C CNN
 F 3 "" H 2650 3350 60  0001 C CNN
 	1    2650 3350
@@ -193,12 +193,12 @@ $EndComp
 $Comp
 L 4ms-passives:CAP_TH C5
 U 1 1 5A3339E6
-P 6050 1900
-F 0 "C5" V 6000 1950 50  0000 L CNN
-F 1 "100nf-220nF or bigger?" V 6200 1800 50  0000 L CNN
-F 2 "4ms-footprints:Cap_Ceramic_TH" H 6088 1750 50  0001 C CNN
-F 3 "" H 6050 1900 50  0001 C CNN
-	1    6050 1900
+P 6400 1900
+F 0 "C5" V 6350 1950 50  0000 L CNN
+F 1 "100nf-220nF or bigger?" V 6550 1800 50  0000 L CNN
+F 2 "4ms-footprints:Cap_Ceramic_TH" H 6438 1750 50  0001 C CNN
+F 3 "" H 6400 1900 50  0001 C CNN
+	1    6400 1900
 	0    1    1    0   
 $EndComp
 $Comp
@@ -292,12 +292,12 @@ $EndComp
 $Comp
 L zMECH:SPDT_small Osc_Select1
 U 1 1 5A3358B6
-P 5700 1900
-F 0 "Osc_Select1" H 5600 1750 60  0000 C CNN
-F 1 "SPDT_small" H 5700 2060 20  0000 C CNN
-F 2 "zfoot:Switch_Toggle_SPDT_Mini_SolderLug" H 5700 1900 60  0001 C CNN
-F 3 "" H 5700 1900 60  0001 C CNN
-	1    5700 1900
+P 6100 1900
+F 0 "Osc_Select1" H 6000 1750 60  0000 C CNN
+F 1 "SPDT_small" H 6100 2060 20  0000 C CNN
+F 2 "zfoot:Switch_Toggle_SPDT_Mini_SolderLug" H 6100 1900 60  0001 C CNN
+F 3 "" H 6100 1900 60  0001 C CNN
+	1    6100 1900
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -361,7 +361,7 @@ U 1 1 5A3386D8
 P 900 1500
 F 0 "J2" H 650 1600 60  0000 C CNN
 F 1 "Trigger_Input" H 1100 1450 60  0000 C CNN
-F 2 "zfoot:Jack_Instrument" H 900 1500 60  0001 C CNN
+F 2 "zfoot:Jack_Instrument_Bigger" H 900 1500 60  0001 C CNN
 F 3 "" H 900 1500 60  0000 C CNN
 	1    900  1500
 	1    0    0    -1  
@@ -452,7 +452,7 @@ F 1 "100k before decay pot" V 3550 1750 45  0000 C CNN
 F 2 "4ms-footprints:Resistor_TH_300" H 3630 2050 20  0001 C CNN
 F 3 "" H 3600 1900 60  0001 C CNN
 	1    3600 1900
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L 4ms-power:GND #PWR013
@@ -635,47 +635,43 @@ Wire Wire Line
 Connection ~ 5150 2500
 Wire Wire Line
 	5150 2350 5350 2350
-Wire Wire Line
-	5850 1900 5900 1900
 $Comp
 L 4ms-passives:RTH R7
 U 1 1 5A33161A
-P 6450 1900
-F 0 "R7" H 6500 1800 45  0000 C CNN
-F 1 "1k" H 6350 1800 45  0000 C CNN
-F 2 "4ms-footprints:Resistor_TH_300" H 6480 2050 20  0001 C CNN
-F 3 "" H 6450 1900 60  0001 C CNN
-	1    6450 1900
+P 6750 1900
+F 0 "R7" H 6800 1800 45  0000 C CNN
+F 1 "1k" H 6650 1800 45  0000 C CNN
+F 2 "4ms-footprints:Resistor_TH_300" H 6780 2050 20  0001 C CNN
+F 3 "" H 6750 1900 60  0001 C CNN
+	1    6750 1900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6200 1900 6250 1900
 $Comp
 L zMECH:JACK-TIP_GND J3
 U 1 1 5A331971
-P 7150 2050
-F 0 "J3" H 6900 2150 60  0000 C CNN
-F 1 "Output" H 7350 2000 60  0000 C CNN
-F 2 "zfoot:Jack_Instrument" H 7150 2050 60  0001 C CNN
-F 3 "" H 7150 2050 60  0000 C CNN
-	1    7150 2050
+P 7450 2050
+F 0 "J3" H 7200 2150 60  0000 C CNN
+F 1 "Output" H 7650 2000 60  0000 C CNN
+F 2 "zfoot:Jack_Instrument_Bigger" H 7450 2050 60  0001 C CNN
+F 3 "" H 7450 2050 60  0000 C CNN
+	1    7450 2050
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 1900 6700 1900
+	6950 1900 7000 1900
 $Comp
 L 4ms-power:GND #PWR018
 U 1 1 5A331D26
-P 7300 2200
-F 0 "#PWR018" H 7300 1950 50  0001 C CNN
-F 1 "GND" H 7305 2027 50  0000 C CNN
-F 2 "" H 7300 2200 50  0001 C CNN
-F 3 "" H 7300 2200 50  0001 C CNN
-	1    7300 2200
+P 7600 2200
+F 0 "#PWR018" H 7600 1950 50  0001 C CNN
+F 1 "GND" H 7605 2027 50  0000 C CNN
+F 2 "" H 7600 2200 50  0001 C CNN
+F 3 "" H 7600 2200 50  0001 C CNN
+	1    7600 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 2150 7300 2200
+	7600 2150 7600 2200
 $Comp
 L 4ms-power:GND #PWR019
 U 1 1 5A332636
@@ -735,12 +731,12 @@ Wire Wire Line
 $Comp
 L zMECH:BreadBoardStrip PathToSwitch1
 U 1 1 5A33DD61
-P 5550 1850
-F 0 "PathToSwitch1" H 5600 2000 60  0000 C CNN
-F 1 "BreadBoardStrip" H 5609 1795 10  0000 C CNN
-F 2 "zfoot:BREAKOUTswitch" H 5420 1830 60  0001 C CNN
-F 3 "" H 5550 1850 60  0001 C CNN
-	1    5550 1850
+P 5950 1850
+F 0 "PathToSwitch1" H 6000 2000 60  0000 C CNN
+F 1 "BreadBoardStrip" H 6009 1795 10  0000 C CNN
+F 2 "zfoot:BREAKOUTswitch" H 5820 1830 60  0001 C CNN
+F 3 "" H 5950 1850 60  0001 C CNN
+	1    5950 1850
 	-1   0    0    1   
 $EndComp
 NoConn ~ 6300 900 
@@ -798,8 +794,6 @@ Wire Wire Line
 Connection ~ 1800 1350
 Wire Wire Line
 	1800 1350 1800 1400
-Wire Wire Line
-	5200 1950 5500 1950
 $Comp
 L 4ms-passives:RTH R10
 U 1 1 5ABD3C3E
@@ -811,11 +805,6 @@ F 3 "" H 5500 2250 60  0001 C CNN
 	1    5500 2250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5500 1950 5500 2050
-Connection ~ 5500 1950
-Wire Wire Line
-	5500 1950 5550 1950
 Wire Wire Line
 	5500 2450 5500 2500
 Wire Wire Line
@@ -829,4 +818,22 @@ NoConn ~ 4300 900
 NoConn ~ 4750 900 
 NoConn ~ 5300 900 
 NoConn ~ 5750 900 
+$Comp
+L 4ms-passives:RTH R11
+U 1 1 5AC19556
+P 5750 1950
+F 0 "R11" H 5800 1850 45  0000 C CNN
+F 1 "1k" H 6050 2050 45  0000 C CNN
+F 2 "4ms-footprints:Resistor_TH_300" H 5780 2100 20  0001 C CNN
+F 3 "" H 5750 1950 60  0001 C CNN
+	1    5750 1950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5550 1950 5500 1950
+Wire Wire Line
+	5500 2050 5500 1950
+Connection ~ 5500 1950
+Wire Wire Line
+	5500 1950 5200 1950
 $EndSCHEMATC
