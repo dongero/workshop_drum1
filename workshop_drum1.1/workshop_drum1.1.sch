@@ -325,12 +325,12 @@ $EndComp
 $Comp
 L 4ms-power:+5V #PWR09
 U 1 1 5A337461
-P 750 1100
-F 0 "#PWR09" H 750 950 50  0001 C CNN
-F 1 "+5V" H 650 1200 50  0000 C CNN
-F 2 "" H 750 1100 50  0001 C CNN
-F 3 "" H 750 1100 50  0001 C CNN
-	1    750  1100
+P 700 1050
+F 0 "#PWR09" H 700 900 50  0001 C CNN
+F 1 "+5V" H 600 1150 50  0000 C CNN
+F 2 "" H 700 1050 50  0001 C CNN
+F 3 "" H 700 1050 50  0001 C CNN
+	1    700  1050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -773,10 +773,6 @@ F 3 "" H 4950 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1000 1150 750  1150
-Wire Wire Line
-	750  1150 750  1100
-Wire Wire Line
 	1800 1100 1800 1350
 $Comp
 L 4ms-passives:RTH R9
@@ -836,4 +832,8 @@ Wire Wire Line
 Connection ~ 5500 1950
 Wire Wire Line
 	5500 1950 5200 1950
+Wire Wire Line
+	1000 1150 700  1150
+Wire Wire Line
+	700  1150 700  1050
 $EndSCHEMATC
