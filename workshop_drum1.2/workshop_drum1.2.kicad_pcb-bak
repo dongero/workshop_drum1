@@ -2234,12 +2234,12 @@
     )
   )
 
-  (module zfoot:Logo_S1-2 (layer B.Cu) (tedit 0) (tstamp 5ADC9934)
+  (module zfoot:Logo_S1-2 (layer B.Cu) (tedit 5ADBC2E9) (tstamp 5ADC9934)
     (at 159.004 72.39 180)
-    (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
+    (fp_text reference S1 (at 0 0 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
-    (fp_text value LOGO (at 0.75 0 180) (layer B.SilkS) hide
+    (fp_text value LOGO2 (at 0.75 0 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
     (fp_poly (pts (xy 9.271 -6.731) (xy 6.3246 -6.731) (xy 6.3246 2.0574) (xy 3.3274 2.0574)
@@ -2382,12 +2382,12 @@
       (xy -12.1666 9.525) (xy -12.1666 9.906) (xy 12.1666 9.906) (xy 12.1666 -9.906)) (layer B.SilkS) (width 0.01))
   )
 
-  (module zfoot:Logo_Open-1 (layer B.Cu) (tedit 0) (tstamp 5ADCB453)
+  (module zfoot:Logo_Open-1 (layer B.Cu) (tedit 5ADBC306) (tstamp 5ADCB453)
     (at 134.874 69.596 180)
-    (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
+    (fp_text reference LOGO1 (at 0 0 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
-    (fp_text value LOGO (at 0.75 0 180) (layer B.SilkS) hide
+    (fp_text value Open (at 0.75 0 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
     (fp_poly (pts (xy 0.20214 11.388839) (xy 0.46582 11.385418) (xy 0.706052 11.379578) (xy 0.909329 11.371341)
@@ -2756,12 +2756,12 @@
       (xy -5.647613 -9.056262) (xy -5.393346 -9.056967)) (layer B.SilkS) (width 0.01))
   )
 
-  (module zfoot:Logo_OSH-1 (layer B.Cu) (tedit 5ADBC287) (tstamp 5ADCB9BB)
+  (module zfoot:Logo_OSH-1 (layer B.Cu) (tedit 5ADBC2CE) (tstamp 5ADCB9BB)
     (at 148.082 48.768 180)
-    (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
+    (fp_text reference LOGO3 (at 0 0 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
-    (fp_text value LOGO (at 0.75 0 180) (layer B.SilkS) hide
+    (fp_text value OSH (at 0.75 0 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
     (fp_poly (pts (xy -4.599608 4.353728) (xy -4.299752 4.26594) (xy -4.081808 4.108427) (xy -3.982526 3.907751)
