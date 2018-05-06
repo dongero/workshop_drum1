@@ -191,17 +191,6 @@ F 3 "" H 2650 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4ms-passives:CAP_TH C5
-U 1 1 5A3339E6
-P 6400 1900
-F 0 "C5" V 6350 1950 50  0000 L CNN
-F 1 "100nf" V 6550 1800 50  0000 L CNN
-F 2 "4ms-footprints:Cap_Ceramic_TH" H 6438 1750 50  0001 C CNN
-F 3 "" H 6400 1900 50  0001 C CNN
-	1    6400 1900
-	0    1    1    0   
-$EndComp
-$Comp
 L 4ms-passives:CAP-ELEC-TH C3
 U 1 1 5A333BE8
 P 3550 3350
@@ -877,5 +866,16 @@ F 2 "zfoot:Logo_MNT-2" H 7438 3750 50  0001 C CNN
 F 3 "" H 7400 3900 50  0001 C CNN
 	1    7400 3900
 	1    0    0    -1  
+$EndComp
+$Comp
+L 4ms-passives:CAP-ELEC-TH C5
+U 1 1 5AEF6818
+P 6350 1900
+F 0 "C5" H 6200 1750 45  0000 L CNN
+F 1 "1uF" H 6400 1750 45  0000 L CNN
+F 2 "4ms-footprints:Cap_Electrolytic_TH" H 6380 2050 20  0001 C CNN
+F 3 "" H 6350 1900 60  0001 C CNN
+	1    6350 1900
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
