@@ -899,10 +899,10 @@ F 3 "" H 5550 1850 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GNDStrip EnvelopeAndVoltageStarve1
+L GNDStrip EnvelopeAndVoltageStarve
 U 1 1 5A330F13
 P 5000 1650
-F 0 "EnvelopeAndVoltageStarve1" H 5159 1687 15  0000 L CNN
+F 0 "EnvelopeAndVoltageStarve" H 5159 1687 15  0000 L CNN
 F 1 "PWRStrip" H 5159 1656 10  0000 L CNN
 F 2 "zfoot:BreadBoardStrip_4" H 4870 1630 60  0001 C CNN
 F 3 "" H 5000 1650 60  0001 C CNN
